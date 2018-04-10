@@ -15,6 +15,7 @@ description: DESCRIPTION (limited to 60 characters)
 long_description: LONG_DESCRIPTION (only viewable at bot page)
 avatar: URL, must be the Discord avatar in PNG format and no ?size query
 link: URL to invite bot, must be HTTPS
+site: (optional) Site URL
 nsfw: true | false
 ---
 After this line, you can do any markdown code you want for custom page!
@@ -31,6 +32,7 @@ description: DESCRIPTION (limited to 60 characters)
 long_description: LONG_DESCRIPTION (only viewable at bot page)
 avatar: URL, must be the Discord Server icon in PNG format and no ?size query
 link: URL to discord.gg invite only
+site: (optional) Site URL
 nsfw: false
 ---
 After this line, you can do any markdown code you want for custom page!
