@@ -42,6 +42,9 @@ function createList(target, input) {
 			.addClass("link buttons")
 			.append('<a target="_blank" href="'+input[i].link+'" class="btn green">Join server</a>')
 
+		if (input[i].site) {
+			$(link).append('<a target="_blank" href="'+input[i].site+'" class="btn blue">Visit site</a>')
+		}
 
 		$(card).append(logo, name, desc, link); // Append content
 		$(target).append(card); // Append result

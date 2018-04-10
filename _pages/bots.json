@@ -9,6 +9,7 @@ permalink: "/bots.json"
       "long_description" : "{% if bot.long_description %}{{ bot.long_description }}{% else %}{% endif %}",
       "url_safe": "{{ bot.botname | downcase | replace:' ', '' }}",
       "avatar" : "{{ bot.avatar }}",
+      "site" : "{% if bot.site %}{{ bot.site }}{% else %}{% endif %}",
       "link" : "{{ bot.link }}",
       "verified" : {% if bot.verified %}{{ bot.verified }}{% else %}false{% endif %},
       "nsfw" : {{ bot.nsfw }}
